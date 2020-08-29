@@ -1,0 +1,25 @@
+{
+    "extends": "../../tsconfig.json",
+    "exclude": [
+        "node_modules",
+        "lib-esm",
+        "lib",
+        "**/*.spec*"
+    ],
+    "include": [
+        "src"
+    ],
+    "compilerOptions": {
+        "outDir": "lib",
+        "declaration": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "lib": [
+            "ES2019",
+            "dom"
+        ],
+        "rootDir": "src",
+    }
+}
