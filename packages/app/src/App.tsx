@@ -1,10 +1,11 @@
 import React from 'react';
-import { Button } from '@manasb/shared-components';
+import { Button, Div } from '@manasb/shared-components';
 
 function App() {
   return (
     <div className="App">
       <Button>hey</Button>
+      <Div>hey</Div>
     </div>
   );
 }
