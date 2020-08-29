@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "npm run clean && rollup --config rollup.config.js",
+    "build:watch": "npm run clean && rollup --config rollup.config.js --watch",
     "clean": "rimraf ./lib"
   },
   "author": "",
